@@ -28,6 +28,7 @@ public class HomePage{
 		Thread.sleep(3000);
 		driver.findElement(By.linkText(RetailMeNotTests.prop.getProperty("retailmenot.homepage.couponslink"))).click();
 		driver.findElement(By.linkText(coupounType)).click();
+		System.out.println("Testing");
 		//Thread.sleep(3000);
 		
 	}
